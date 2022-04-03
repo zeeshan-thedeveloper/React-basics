@@ -13,8 +13,9 @@ function App(props) {
      
     return ( 
         <div>
+            <Navbar/>
             <Routes>
-                <Route path='/books' element={<Navbar/>}/>
+                
             </Routes>      
         </div>
     );
