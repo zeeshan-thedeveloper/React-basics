@@ -5,7 +5,6 @@ const RenderProps=()=>{
     return <div>
         <h1>Render props</h1>
         <RenderedProps render={(currentTime,setCurrentTime)=>{return <NeedyComp_A currentTime={currentTime} setCurrentTime={setCurrentTime}/>}}/>
-   
     </div>
 }
 

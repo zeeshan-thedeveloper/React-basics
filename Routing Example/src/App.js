@@ -18,6 +18,7 @@ import LoveStory from "./Components/LoveStory";
 import Animated from "./Components/Animated";
 import HighOrderComponents from "./Components/HighOrderComponents";
 import RenderProps from './Components/RenderProps'
+import ContextExample from "./Components/ContextExample";
 function App(props) {
   return (
     <div>
@@ -27,6 +28,7 @@ function App(props) {
         <Routes>
           <Route path="/books" element={<Books />} />
           <Route path="/render-props-example" element={<RenderProps />} />
+          <Route path="/context-hook-example" element={<ContextExample />} />
           
           <Route path="/re-search-articles" element={<ResearchArticles />} />
           <Route path="/comics/:id" element={<Comics />} />
