@@ -17,7 +17,6 @@ export default function Navbar() {
          <Link style={{color:"white",marginLeft:"5%"}} to="/re-search-articles">Re-search articles</Link>
          <Link style={{color:"white",marginLeft:"5%"}} to="/comics">Comics</Link>
          <Link style={{color:"white",marginLeft:"5%"}} to="/stories">Stories</Link>
-         
         </Toolbar>
       </AppBar>
     </Box>
