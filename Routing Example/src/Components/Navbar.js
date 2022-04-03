@@ -18,6 +18,11 @@ export default function Navbar() {
          <Link style={{color:"white",marginLeft:"5%"}} to="/re-search-articles">Re-search articles</Link>
          <Link style={{color:"white",marginLeft:"5%"}} to="/comics/id=3">Comics</Link>
          <Link style={{color:"white",marginLeft:"5%"}} to="/stories">Stories</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/high-order-comp-example">High order-components</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/render-props-example">Render Props</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/context-hook-example">Context Hook</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/render-props-example">Use Reducer</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/use-context-example">Use Context</Link>
 
         </Toolbar>
       </AppBar>
