@@ -13,10 +13,12 @@ export default function Navbar() {
     <Box sx={{ flexGrow: 0 }}>
       <AppBar position="fixed" style={{backgroundColor:"black"}}>
         <Toolbar>
-         <Link style={{color:"white"}} to="/books">Books</Link>
-         <Link style={{color:"white"}} to="/books">Re-search articles</Link>
-         <Link style={{color:"white"}} to="/books">Comics</Link>
-         <Link style={{color:"white"}} to="/books">Stories</Link>
+
+         <Link style={{color:"white",marginLeft:"5%"}} to="/books">Books</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/re-search-articles">Re-search articles</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/comics">Comics</Link>
+         <Link style={{color:"white",marginLeft:"5%"}} to="/stories">Stories</Link>
+
         </Toolbar>
       </AppBar>
     </Box>
