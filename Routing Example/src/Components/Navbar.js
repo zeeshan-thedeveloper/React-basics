@@ -14,6 +14,10 @@ export default function Navbar() {
       <AppBar position="fixed" style={{backgroundColor:"black"}}>
         <Toolbar>
          <Link style={{color:"white"}} to="/books">Books</Link>
+         <Link style={{color:"white"}} to="/books">Re-search articles</Link>
+         <Link style={{color:"white"}} to="/books">Comics</Link>
+         <Link style={{color:"white"}} to="/books">Stories</Link>
+         
         </Toolbar>
       </AppBar>
     </Box>
