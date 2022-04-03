@@ -1,3 +1,8 @@
+import StoriesCatagoriesTabs from "./StoriesCatagoriesTabs";
+
 export default function Stories(){
-    return <h1>Stories</h1>
-}
+    return <div>
+        <h1>Stories</h1>
+        <StoriesCatagoriesTabs/>
+    </div>
+} 
