@@ -22,10 +22,11 @@ import ContextExample from "./Components/ContextExample";
 function App(props) {
   return (
     <div>
-      <Navbar />
+      <SinInForm/>
+      {/* <Navbar /> */}
       {/* <HighOrderComponents/> */}
-      <div style={{ marginTop: "5%" }}>
-        <Routes>
+      {/* <div style={{ marginTop: "5%" }}> */}
+        {/* <Routes>
           <Route path="/books" element={<Books />} />
           <Route path="/render-props-example" element={<RenderProps />} />
           <Route path="/context-hook-example" element={<ContextExample />} />
@@ -39,8 +40,8 @@ function App(props) {
             <Route path="love-story" element={<LoveStory />} />
             <Route path="animated" element={<Animated />} />
           </Route>
-        </Routes>
-      </div>
+        </Routes> */}
+      {/* </div> */}
     </div>
   );
 }
