@@ -25,6 +25,7 @@ const Component_B=()=>{
     </div>
 }
 
+
 const ContextExample=()=>{
     const [name,setName]=useState("zee");
 
@@ -34,7 +35,7 @@ const ContextExample=()=>{
             <Component_A/>
             <Component_B/>
         </MyContext.Provider>
-        
+      
     </div>
 }
 
