@@ -29,7 +29,6 @@ function App(props) {
           <Route path="/books" element={<Books />} />
           <Route path="/render-props-example" element={<RenderProps />} />
           <Route path="/context-hook-example" element={<ContextExample />} />
-          
           <Route path="/re-search-articles" element={<ResearchArticles />} />
           <Route path="/comics/:id" element={<Comics />} />
           <Route path="/high-order-comp-example" element={<HighOrderComponents />} />
