@@ -25,7 +25,12 @@ const ListOfBooks = () => {
   return (
     <div style={{marginLeft:"5%"}}>
       <h1>List</h1>
-      {data.map((item)=>{
+      <button onClick={()=>{
+        searchParam.set("name","Massoma");
+        searchParam.set("password","1234e");
+        setSearchParams(searchParam);
+        }}>Create url</button>
+      {/* {data.map((item)=>{
           return<div style={{marginTop:"1%"}}>
               <span>{item.bookName}</span>
               <button onClick={(e)=>{
@@ -33,7 +38,7 @@ const ListOfBooks = () => {
                   setSearchParams(searchParam);
               }} style={{marginLeft:"2%"}}>Open</button>
           </div>
-      })}
+      })} */}
     </div>
   );
 };

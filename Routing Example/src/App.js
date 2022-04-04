@@ -24,7 +24,7 @@ function App(props) {
         <Routes>
           <Route path="/books" element={<Books />} />
           <Route path="/re-search-articles" element={<ResearchArticles />} />
-          <Route path="/comics/:id" element={<Comics />} />
+          <Route path="/comics/:mass" element={<Comics />} />
           <Route path="/stories" element={<Stories />}>
             <Route index  element={<Horror />} />
             <Route path="horror" element={<Horror />} />

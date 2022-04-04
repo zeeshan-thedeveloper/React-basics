@@ -8,7 +8,9 @@ import book_4 from './Images/book_4.jpg'
 
 export default function Books() {
   const [searchParam, setSearchParams] = useSearchParams();
-
+  const name  = searchParam.get("name");
+  const password  = searchParam.get("password");
+  
   return (
     <div>
       <h1>Books</h1>
@@ -17,10 +19,17 @@ export default function Books() {
           <ListOfBooks />
         </Grid>
         <Grid item xs={3}>
-            {(searchParam.get('bookId')=='book_1') && <img src={book_1} width="50%"/>}
+            {
+              `Name : ${name}`
+            }
+            <br></br>
+            {
+              `Password : ${password}`
+            }
+            {/* {(searchParam.get('bookId')=='book_1') && <img src={book_1} width="50%"/>}
             {(searchParam.get('bookId')=='book_2') && <img src={book_2} width="50%"/>}
             {(searchParam.get('bookId')=='book_3') && <img src={book_3} width="50%"/>}
-            {(searchParam.get('bookId')=='book_4') && <img src={book_4} width="50%"/>}
+            {(searchParam.get('bookId')=='book_4') && <img src={book_4} width="50%"/>} */}
         </Grid>
       </Grid>
     </div>
