@@ -13,17 +13,19 @@ import Comics from "./Components/Comics";
 import SinUpForm from "./Components/SinUpForm";
 import Navbar from "./Components/Navbar";
 import { Route, Routes } from "react-router-dom";
+import HomeScreen from "./Components/HomeScreen";
 function App(props) {
   return (
     <div>
       <Navbar />
-      <div style={{marginTop:"5%"}}>
-      <Routes>
-          <Route path="/books" element={<Books/>}/>
-          <Route path="/re-search-articles" element={<Books/>}/>
-          <Route path="/comics" element={<ResearchArticles/>}/>
-          <Route path="/stories" element={<Stories/>}/>
-      </Routes>
+      <div style={{ marginTop: "5%" }}>
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/books" element={<Books />} />
+          <Route path="/re-search-articles" element={<Books />} />
+          <Route path="/comics" element={<ResearchArticles />} />
+          <Route path="/stories" element={<Stories />} />
+        </Routes>
       </div>
     </div>
   );

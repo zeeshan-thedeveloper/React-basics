@@ -6,9 +6,13 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const navigate = useNavigate();
+  setTimeout(()=>{
+    navigate("/comics")
+  },4000)
   return (
     <Box sx={{ flexGrow: 0 }}>
       <AppBar position="fixed" style={{backgroundColor:"black"}}>
