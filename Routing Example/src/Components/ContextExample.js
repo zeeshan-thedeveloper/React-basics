@@ -13,6 +13,7 @@ const Component_A=()=>{
         </MyContext.Consumer>
     </div>
 }
+
 const Component_B=()=>{
     return <div>
         <MyContext.Consumer>
