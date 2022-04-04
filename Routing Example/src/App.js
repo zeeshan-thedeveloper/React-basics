@@ -25,7 +25,7 @@ function App(props) {
       {/* <HighOrderComponents/> */}
       <div style={{ marginTop: "5%" }}>
         <Routes>
-          <Route path="/books" element={<Books />} />
+          <Route path="/books" element={<Books  />} />
           <Route path="/render-props-example" element={<RenderProps />} />
           
           <Route path="/re-search-articles" element={<ResearchArticles />} />
